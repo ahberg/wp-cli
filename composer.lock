@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f202cbe08c5ef7a6723bde4c3e60e5a0",
+    "content-hash": "f608fe13be9303f436b166859883b704",
     "packages": [
         {
             "name": "mustache/mustache",
@@ -4147,16 +4147,16 @@
         },
         {
             "name": "wp-cli/wp-cli-tests",
-            "version": "v2.1.14",
+            "version": "v2.1.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/wp-cli-tests.git",
-                "reference": "1a6491389d7c824a2372c2809225bc550ee4234e"
+                "reference": "c97df8966ced70607093d618d25d2c6d3888a593"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/wp-cli-tests/zipball/1a6491389d7c824a2372c2809225bc550ee4234e",
-                "reference": "1a6491389d7c824a2372c2809225bc550ee4234e",
+                "url": "https://api.github.com/repos/wp-cli/wp-cli-tests/zipball/c97df8966ced70607093d618d25d2c6d3888a593",
+                "reference": "c97df8966ced70607093d618d25d2c6d3888a593",
                 "shasum": ""
             },
             "require": {
@@ -4208,7 +4208,7 @@
                 "cli",
                 "wordpress"
             ],
-            "time": "2020-07-05T20:55:49+00:00"
+            "time": "2020-10-02T07:02:04+00:00"
         },
         {
             "name": "wp-cli/wp-config-transformer",
