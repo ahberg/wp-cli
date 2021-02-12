@@ -1822,6 +1822,7 @@ class Runner {
 		 * error handling without the side-effects that this would add.
 		 */
 		if ( defined( 'WP_CLI_FORCE_BEHAT_ERROR_REPORTING' ) && ! WP_CLI_FORCE_BEHAT_ERROR_REPORTING ) {
+			ini_set( 'log_errors', 0 ); // phpcs:ignore WordPress.PHP.IniSet.log_errors_Blacklisted
 			return;
 		}
 
